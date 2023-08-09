@@ -1,0 +1,7 @@
+nano /usr/src/app/index.js
+
+console.log('Hello World')
+
+Ctrl + O
+Enter
+Ctrl + X
