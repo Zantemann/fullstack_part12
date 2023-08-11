@@ -62,6 +62,6 @@ typings/
 
 # mongo data
 /data/db
-
+/mongo_data
 # redis data
 /redis_data
