@@ -1,5 +1,7 @@
+version: '3.8'
+
 services:
-  app:
+  frontend-dev:
     image: todo-frontend-dev
     build:
       context: .
@@ -8,4 +10,4 @@ services:
       - ./:/usr/src/app
     ports:
       - 3000:3000
-    container_name: todo-frontend-dev
+    container_name: frontend-dev
